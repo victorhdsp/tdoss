@@ -16,6 +16,8 @@ export default function Item({item}: cursusUserProps) {
         >
             <div className="overflow-hidden w-56 h-56">
                 <img
+                    width={244}
+                    height={244}
                     src={user.image.versions.medium || user.image.link} 
                     alt={user.displayname} 
                     className="w-full h-full object-cover object-center"

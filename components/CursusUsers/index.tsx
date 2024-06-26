@@ -4,9 +4,8 @@ import { useEffect, useState } from "react";
 import { cursus_users } from "./cursusUser.t";
 import Item from "./Item";
 import { getRequestOptions, getToken } from "@/assets/getAuth";
-import { OAuthError } from "@/assets/getAuth/getAuth.t";
 
-export default function cursusUsers() {
+export default function CursusUsers() {
     const [cursusUser, setCursusUser] = useState<cursus_users[]>([])
 
     useEffect(() => {
